@@ -5,7 +5,7 @@ const dialog = [
     message: "Привет",
     id: 0,
     date: "2021-10-11T10:09:04.712Z",
-    is: "her",
+    is: "your",
   },
   {
     avatar:
@@ -13,7 +13,7 @@ const dialog = [
     message: "Как дела?",
     id: 1,
     date: "2021-10-11T10:19:04.712Z",
-    is: "her",
+    is: "your",
   },
   {
     avatar:
@@ -21,7 +21,7 @@ const dialog = [
     message: "Я только приехал с Марса",
     id: 2,
     date: "2021-10-11T10:24:04.712Z",
-    is: "her",
+    is: "your",
   },
   {
     avatar:
@@ -65,7 +65,7 @@ const dialog = [
     message: "Да, все круто. Только никому не говори)",
     id: 7,
     date: "2021-10-11T15:09:04.712Z",
-    is: "her",
+    is: "your",
   },
 ];
 
