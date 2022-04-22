@@ -7,7 +7,12 @@ import Icon from "../Icon/Icon";
 
 import "./styles.css";
 
-const DialogItem = ({ isReverse, isRemovable, messages, avatar }) => {
+const DialogItem = ({ isReverse, isRemovable, messages, avatar, onRemove }) => {
+  const onRemoveHandle = (event) => {
+    const { id } = event.currentTarget.dataset;
+    onRemove(+id);
+  };
+
   return (
     <div
       className={classNames("item", {
@@ -32,6 +37,7 @@ const DialogItem = ({ isReverse, isRemovable, messages, avatar }) => {
               data-id={item.id}
               size={18}
               className="remove-message"
+              onClick={onRemoveHandle}
             />
           </div>
         ))}
@@ -52,6 +58,7 @@ DialogItem.propTypes = {
       status: PropTypes.oneOf(["sended", "readed"]),
     })
   ).isRequired,
+  onRemove: PropTypes.func.isRequired,
 };
 
 export default DialogItem;
