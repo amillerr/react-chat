@@ -29,7 +29,7 @@ const Dialog = ({ newMessage }) => {
             status: "readed",
           },
         });
-      }, 1000);
+      }, 3000);
     }
   }, [newMessage]);
 
