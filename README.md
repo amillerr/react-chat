@@ -4,7 +4,7 @@
 
 Локальный чат на React.js
 
-[Ссылка на проектную работу](https://amillerr.github.io/react-chat/)
+[Ссылка на проектную работу](https://react-chat-ten-sable.vercel.app/)
 
 ## Функционал:
 
